@@ -18,8 +18,9 @@ To use this website, follow these steps:
 
    
 bash
+   ```
    git clone https://github.com/Fuyuki325/ASCII-Art-Video-Converter.git
-   
+   ```
 2. **Install Open Live Server Extension:** You will need the Open Live Server extension for your code editor to access the website locally. If you haven't installed it yet, you can find it in your code editor's extensions or plugins marketplace.
 
 3. **Prepare Your Video:**
@@ -30,10 +31,10 @@ bash
 
 4. **Replace Default Video:**
 
-   In the project directory, locate the lines of code that specify the default video(Bad Apple!!). You should find something like this in your HTML and Javascript files:
-
-```   
-index.html
+   In the project directory, locate the lines of code that specify the default video(Bad Apple!!.mp4). You should find something like this in your HTML and Javascript files:
+  
+### index.html
+   ```
    <main>
       <div id="videoContainer">
         <video id="myVideo" src="Bad Apple!!.mp4" muted loop></video>
@@ -41,14 +42,14 @@ index.html
       </div>
       <div id="asciiDiv"></div>
     </main>
-```
-```    
-sketch.js
+   ``` 
+### sketch.js
+  ```
   function setup() {
     noCanvas();
     video = createVideo('Bad Apple!!.mp4');
     const multiplier = 5;
-```   
+  ```   
    Replace "Bad Apple!!.mp4" with the name of your .mp4 video file.
 
 5. **Run the Website with Open Live Server:**
