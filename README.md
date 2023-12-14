@@ -1,6 +1,6 @@
 # ASCII Art Video Converter
 
-Welcome to the ASCII Art Video website! If you'd like to convert a video into ASCII art, you've come to the right place.
+Welcome to the ASCII Art Video Converter! Turn your videos into captivating ASCII art effortlessly. Unleash creativity with our innovative platform – the perfect blend of technology and artistry. Elevate your visual content with unique, mesmerizing transformations.
 
 ## Demo
 
